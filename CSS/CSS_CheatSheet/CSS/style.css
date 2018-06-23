@@ -13,8 +13,89 @@ body{
     border: 50px red solid;
     padding: 50px;
     border-width: 3px;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.button{
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
 }
 .container{
     width: 80%;
     margin: auto;
+}
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.box-2{
+
+    
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+
+.box-2 h1{
+    font-size: 16px;
+}
+.categories{
+    border: 1px #ccc solid;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    list-style: square;
+    list-style: none;
+    padding-left: 20px
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:active{
+    color: green;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    /* color:yellow; */
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url(../images/tickmarks.jpg);
+    
+}
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+
+    padding-bottom: 20px;
+}
+.my-form label{
+    display: block;
+}
+.my-form input[type="text"], .my-form textarea {
+    width: 100%;
 }
